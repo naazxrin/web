@@ -1,0 +1,200 @@
+*{
+    padding:0% ;
+    margin: 0%;
+}
+.nav-parent{
+    margin-top: 10px;
+    border: solid;
+    border-color: white;
+    background-color: lightskyblue;
+background-size: cover;
+}
+.nav-child{
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: none;
+}
+.link{
+    margin-top: 20px;
+    text-decoration: none;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+#ab{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+#ac{
+    margin-left: 300px;
+    margin-top: -16px;
+}
+#bb{
+    margin-left: 900px;
+    margin-top: -15px;
+}
+#bc{
+    margin-top: -20px;
+    margin-left: 1100px;
+}
+#logo{
+    margin-top: -30px;
+    margin-left: 500px;
+}
+#Package1{
+    background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
+    background-size: cover;
+}
+.hh{
+    font-weight: 800;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+#hd{
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 400px;
+}
+.next-child1{
+    margin-top: 100px;
+}
+#me{
+    margin-top: -300px;
+    margin-left: 430px;
+}
+#wa{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "Merienda", cursive;
+}
+.next-child{
+    margin: 20px;
+}
+
+#ww1{
+    margin-left: 20px;
+    font-family: "Merienda", cursive;
+}
+h5{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.next-child2{
+    margin-left: 500px;
+}
+#th{
+    margin-left: 800px;
+    font-family: "Merienda", cursive;
+    font-size: 20px;
+}
+#th2{
+    margin-left: 600px;
+    font-size: 15px;
+    font-family: "Merienda", cursive;
+
+    color:black;
+    margin-top: 10px;
+    
+}
+#th1{
+    margin-top: 10px;
+    margin-left: 600px;
+}
+#th3{
+    margin-left:600px ;
+}
+.dis-parent{
+    padding: 10px;
+}
+#dis{
+    text-align: center;
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+#dis2{
+text-align: center;
+font-family: "Dancing Script", cursive;
+
+}
+.dis-parent{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    justify-content: center;
+    align-items: center;
+}
+.ss{
+    font-weight: 800;
+    font-family: "Merienda", cursive;
+    color: brown;
+}
+#last
+{
+    margin-bottom: 10px;
+}
+.num
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between
+}
+#crow
+{
+    margin: 20px;
+    background-color: rgb(105, 100, 100);
+  border: none;
+  padding: 10px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  border-radius:50px;
+  width:100%;
+  color:white;
+}
+#babx
+{
+    margin-left: 50px;
+}
+
+.icon-collections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius:60%;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, white,yellow,red,violet);
+}
+.brands{
+    color: black;
+    font-size: 30px;
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
